@@ -1,0 +1,228 @@
+/*ГЛАВНАЯ СТРАНИЦА*/
+
+/*добавление фонового изображения на всю страницу*/
+body {
+background: url(../picture/fon.jpg);
+background-size: 100%;
+}
+
+
+/*выравнивание блока по центру*/
+.head {
+text-align: center;
+}
+
+/*навигационное меню (ссылки)*/
+.head a {
+color: #ffc400;
+text-decoration: none;
+font-size: 20px;
+text-transform: uppercase; 
+text-align: right;
+padding: 10px;
+font-family: 'El Messiri', sans-serif;
+}
+
+/*стиль ссылок в меню*/
+.head a:hover {
+color:#7a83ff;
+}
+
+/*размер логотипа*/
+.sk {
+width: 200px;
+height: 80px;  
+}
+
+/*задний фон для поисковой строки*/
+.search {
+background-color: #342680;
+height: 70px;
+text-align: right;
+}
+
+/*ссылка на кнопке*/
+.search a {
+color: #ffffff;
+text-decoration: none;
+font-family: 'El Messiri', sans-serif;
+}
+
+/*стиль кнопки "введите запрос"*/
+.searchInput {
+width: 400px;
+height: 30px;
+border-radius: 5px;
+margin-left: 10px;
+font-family: 'El Messiri', sans-serif;
+}
+
+/*стиль для кнопки поиска*/
+.searchBut {
+width: 150px;
+height: 30px;   
+border-radius: 5px;
+background-color: #7a83ff;
+border-color: #ffffff;
+font-family: 'El Messiri', sans-serif;
+margin-right: 30px;
+}
+
+.searchBut:hover {
+background-color: #342680;
+}
+
+/*блок "категории" (выравнивание по центру)*/
+.divCatalog {
+width: 100%;
+text-align: center;
+}
+
+/*категории (заголовок)*/
+.cat {
+color: #ffc400;
+font-size: 30px;
+font-family: 'El Messiri', sans-serif;
+}
+
+/*4 категории (серьги, ожерелья, диадемы, кольца)*/
+.catalog {
+background: #7a83ff;
+width: 200px;
+height: 60px;
+text-align: center;
+display: inline-block;
+color: #ffffff;
+border-color: #ffffff;
+margin-top: 30px;
+margin-left: 30px;
+font-family: 'El Messiri', sans-serif;
+font-size: 20px;
+}
+
+/*эффект переливания*/
+.catalog:hover {
+background-color: #ffdd6e;
+}
+
+.infoDiv {
+background-color: #7a83ff85;
+font-family: 'El Messiri', sans-serif;
+}
+
+.infoTable {
+width: 100%;
+text-align: center;
+}
+
+.inf {
+width: 10%;
+}
+    
+.info {
+width: 500px;
+}
+
+.infoH1 {
+color: #ffffff;    
+}
+
+.stocks {
+text-align: center;
+}
+
+.stocks img{
+width: 400px;
+width: 400px;
+padding: 10px;
+}
+
+.promo {
+background-color: #342680;   
+text-align: center;
+height: 90px;
+}
+
+.promoBtn {
+background-color: #7a83ff;
+border-color: #ffffff;
+color: white;
+font-size: 30px;
+width: 500px;
+font-family: 'El Messiri', sans-serif;   
+}
+
+.footer {
+text-align: center;
+background-color: #7a83ff85;
+}
+
+.footer a {
+color: #ffffff;
+text-decoration: none;
+font-size: 20px;
+text-transform: uppercase; 
+text-align: right;
+padding: 10px;
+font-family: 'El Messiri', sans-serif;
+}
+    
+.icon {
+width: 20px;
+height: 20px;
+margin-left: 10px;
+}
+
+span, p {
+font-family: 'El Messiri', sans-serif;    
+}
+
+.master {
+width: 500px;
+height: 300px;    
+}
+
+.bluefon {
+background-color: #342680;
+text-align: center; 
+height: 80px;
+}
+
+.bf {
+font-size: 30px;
+font-family: 'El Messiri', sans-serif;
+color: white;
+}
+
+/*таблица MAP (карта)*/
+.mapTable {
+text-align: center;
+width: 100%;
+margin-left: 50px;
+}
+
+/*контейнер для карты*/
+.mapTD {
+width: 800px;
+}
+
+.collection {
+background: linear-gradient(#06021b, #342680, #06021b);
+font-family: 'El Messiri', sans-serif;    
+}
+
+.plusDiv {
+font-family: 'El Messiri', sans-serif;
+text-align: center; 
+}
+
+.plusImg {
+width: 350px;  
+height: 250px;
+padding: 10px;
+}
+
+.plusH1 {
+font-family: 'El Messiri', sans-serif;  
+color: #342680;
+}
